@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChatHistory">
+    <accountData>
+      <list>
+        <AccountData>
+          <accountId value="VXNlcjoyNTkzODM=" />
+          <chats>
+            <list>
+              <chat>
+                <internalId value="020d17f9-76cd-4e1b-83e0-d37c44c1a5bf" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+              </chat>
+              <chat>
+                <internalId value="a9655d45-0493-45f7-bb47-34bbf8f1e056" />
+                <llm>
+                  <llm>
+                    <model value="anthropic/claude-3-sonnet-20240229" />
+                    <provider value="Anthropic" />
+                    <title value="Claude 3 Sonnet" />
+                  </llm>
+                </llm>
+                <messages>
+                  <list>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="У меня в intellig по умолчанию при создании файла создается такой код&#10;public class NumberOfEmployeesWhoMetTheTarget {&#10;}&#10;Я хочу его изменить. Как???" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="В IntelliJ IDEA вы можете изменить шаблон кода, который генерируется при создании нового класса. Вот как это сделать:&#10;&#10;1. Перейдите в меню `File` -&gt; `Settings` (или `Preferences` на macOS).&#10;2. В левой панели навигации выберите `Editor` -&gt; `File and Code Templates`.&#10;3. В центральной панели найдите шаблон `Class`.&#10;4. Измените код в поле `Code` на тот, который вы хотите использовать в качестве шаблона для новых классов.&#10;5. Нажмите `Apply` или `OK` для сохранения изменений.&#10;&#10;Например, если вы хотите, чтобы новые классы создавались с комментарием и пустым конструктором, вы можете изменить шаблон `Class` на следующий:&#10;&#10;```java&#10;/**&#10; * Описание класса&#10; */&#10;public class $NAME$ {&#10;&#10;    /**&#10;     * Конструктор по умолчанию&#10;     */&#10;    public $NAME$() {&#10;    }&#10;}&#10;```&#10;&#10;После этого, при создании нового класса в IntelliJ IDEA, он будет генерироваться с вашим пользовательским шаблоном.&#10;&#10;Обратите внимание, что вы можете настроить шаблоны для различных типов файлов, таких как классы, интерфейсы, перечисления и т.д." />
+                    </message>
+                    <message>
+                      <speaker value="HUMAN" />
+                      <text value="I create a git repository in google. And i want to add iit in my intellij. How should i do it" />
+                    </message>
+                    <message>
+                      <speaker value="ASSISTANT" />
+                      <text value="To add an existing Git repository from Google to your IntelliJ IDEA, follow these steps:&#10;&#10;1. Open IntelliJ IDEA.&#10;2. Go to `File` &gt; `New` &gt; `Project from Version Control`.&#10;3. In the &quot;Get from Version Control&quot; window, select the &quot;Git&quot; option from the &quot;Version control&quot; dropdown.&#10;4. In the &quot;URL&quot; field, paste the URL of your Git repository from Google. The URL should look something like `https://github.com/your-username/your-repo.git`.&#10;5. If you want to specify a different directory for the project, click the &quot;...&quot; button next to the &quot;Directory&quot; field and choose the desired location.&#10;6. If your repository is private, you may need to enter your Git credentials (username and password or personal access token) in the &quot;Login&quot; and &quot;Password&quot; fields.&#10;7. Click the &quot;Clone&quot; button.&#10;&#10;IntelliJ IDEA will now clone your Git repository from Google to the specified directory on your local machine.&#10;&#10;Alternatively, if you already have an existing project in IntelliJ IDEA and want to add a Git repository from Google to it, follow these steps:&#10;&#10;1. Open your project in IntelliJ IDEA.&#10;2. Go to `VCS` &gt; `Import into Version Control` &gt; `Create Git Repository`.&#10;3. In the &quot;Import into Git&quot; window, select the project root directory.&#10;4. Click the &quot;Git&quot; option under &quot;Create Git Repository&quot;.&#10;5. Click &quot;OK&quot;.&#10;6. In the &quot;Specify Remote&quot; window, paste the URL of your Git repository from Google in the &quot;URL&quot; field.&#10;7. Click &quot;OK&quot;.&#10;&#10;IntelliJ IDEA will now create a new Git repository in your project and associate it with the remote repository from Google.&#10;&#10;After completing either of these processes, you can commit and push your changes to the remote repository from within IntelliJ IDEA using the built-in Git tools." />
+                    </message>
+                  </list>
+                </messages>
+                <updatedAt value="2024-07-28T19:13:29.9765066" />
+              </chat>
+            </list>
+          </chats>
+          <defaultLlm>
+            <llm>
+              <model value="anthropic/claude-3-sonnet-20240229" />
+              <provider value="Anthropic" />
+              <title value="Claude 3 Sonnet" />
+            </llm>
+          </defaultLlm>
+        </AccountData>
+      </list>
+    </accountData>
+  </component>
+</project>
