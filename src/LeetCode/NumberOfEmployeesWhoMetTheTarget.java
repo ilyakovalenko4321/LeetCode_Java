@@ -1,3 +1,5 @@
+package LeetCode;
+
 class NumberOfEmployeesWhoMetTheTarget {
     public int numberOfEmployeesWhoMetTarget(int[] hours, int target) {
         int result = 0;

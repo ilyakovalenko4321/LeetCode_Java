@@ -1,3 +1,5 @@
+package Tinkoff;
+
 import java.util.*;
 
 public class ProcessExecutionTime {

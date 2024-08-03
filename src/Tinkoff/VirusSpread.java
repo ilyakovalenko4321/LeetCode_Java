@@ -1,3 +1,5 @@
+package Tinkoff;
+
 import java.util.Scanner;
 
 public class VirusSpread {
